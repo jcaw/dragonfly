@@ -65,6 +65,7 @@ setup(
                         "enum34;python_version<'3.4'",
                         "regex",
                         "decorator",
+                        "toml",
 
                         # Windows-only dependencies.
                         "comtypes;platform_system=='Windows'",
