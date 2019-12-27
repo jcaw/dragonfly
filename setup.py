@@ -127,6 +127,7 @@ setup(
                     "webrtcvad == 2.0.*",
                    ],
           "draconity": [
+                        "toml >= 0.10.0",
                         # `pymongo` provides `bson` - we don't want the `bson`
                         # pip package.
                         "pymongo >= 3.9.0",
@@ -134,6 +135,7 @@ setup(
 
       tests_require=[
                      "mock;python_version<'3.3'",
+                     "parameterized",
                     ],
       },
 
